@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <feanaur2193@gmail.com>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-07 12:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kolmakov ALexander <feanaur2193@gmail.com>\n"
+"Language-Team: Russian <dev@welcomemedia.ru>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: aldryn_newsblog/admin.py:25
+msgid "Mark selected articles as published"
+msgstr "Пометить выбранные статьи как опубликованные"
+
+#: aldryn_newsblog/admin.py:33
+msgid "Mark selected articles as not published"
+msgstr "Пометить выбранные статьи как неопубликованные"
+
+#: aldryn_newsblog/admin.py:41
+msgid "Mark selected articles as featured"
+msgstr "Отметить выбранные статьи как основные"
+
+#: aldryn_newsblog/admin.py:49
+msgid "Mark selected articles as not featured"
+msgstr "Отметить выбранные статьи как неосновные"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:18
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:20
+#: aldryn_newsblog/templates/aldryn_newsblog/article_detail.html:15
+msgid "Previous Article"
+msgstr "Предыдущая статья"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:22
+#: aldryn_newsblog/templates/aldryn_newsblog/article_detail.html:17
+msgid "Back to Overview"
+msgstr "Вернуться к Обзору"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:24
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_detail.html:26
+#: aldryn_newsblog/templates/aldryn_newsblog/article_detail.html:19
+msgid "Next Article"
+msgstr "Следующая статья"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/article_list.html:9
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/archive.html:21
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/authors.html:10
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/latest_articles.html:7
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:12
+#: aldryn_newsblog/templates/aldryn_newsblog/article_list.html:8
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/archive.html:22
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/authors.html:9
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/featured_articles.html:6
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/related_articles.html:11
+msgid "No items available"
+msgstr "Нет доступных элементов"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:8
+msgid "First"
+msgstr "Первая"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:14
+#: aldryn_newsblog/templates/aldryn_newsblog/includes/pagination.html:8
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:47
+#: aldryn_newsblog/templates/aldryn_newsblog/includes/pagination.html:42
+msgid "Next"
+msgstr "Следующая"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/pagination.html:53
+msgid "Last"
+msgstr "Последняя"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:4
+#: aldryn_newsblog/templates/aldryn_newsblog/includes/search_results.html:6
+#, python-format
+msgid "Most recent articles containing \"<strong>%(query)s</strong>\""
+msgstr ""
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:19
+#: aldryn_newsblog/templates/aldryn_newsblog/includes/search_results.html:21
+msgid "No articles found"
+msgstr "Не найдено ни одной статьи "
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/includes/search_results.html:21
+#: aldryn_newsblog/templates/aldryn_newsblog/includes/search_results.html:23
+msgid "Enter a query above"
+msgstr "Введите запрос выше"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:8
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/article_search.html:6
+msgid "Keyword search"
+msgstr "Поиск по ключевым словам"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:9
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/article_search.html:7
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/article_search.html:11
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/article_search.html:10
+msgid "Go"
+msgstr "Найти"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/categories.html:6
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/tags.html:6
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/categories.html:5
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/tags.html:5
+msgid "All"
+msgstr "Все"
+
+#: aldryn_newsblog/boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: aldryn_newsblog/templates/aldryn_newsblog/plugins/related_articles.html:8
+msgid "by"
+msgstr "от"
+
+#: aldryn_newsblog/cms_appconfig.py:19
+msgid "the-eagle-has-landed/"
+msgstr "орел-успешно-приземлился/"
+
+#: aldryn_newsblog/cms_appconfig.py:20
+msgid "1969/the-eagle-has-landed/"
+msgstr "1969/орел-успешно-приземлился/"
+
+#: aldryn_newsblog/cms_appconfig.py:21
+msgid "1969/07/the-eagle-has-landed/"
+msgstr "1969/07/орел-успешно-приземлился/"
+
+#: aldryn_newsblog/cms_appconfig.py:22
+msgid "1969/07/16/the-eagle-has-landed/"
+msgstr "1969/07/16/орел-успешно-приземлился/"
+
+#: aldryn_newsblog/cms_appconfig.py:23
+msgid "1969/07/16/11/"
+msgstr "1969/07/16/11/"
+
+#: aldryn_newsblog/cms_appconfig.py:27
+msgid "Allow"
+msgstr "Разрешить"
+
+#: aldryn_newsblog/cms_appconfig.py:28
+msgid "Redirect to permalink (default)"
+msgstr "Перенаправлять по статической ссылке (по умолчанию)"
+
+#: aldryn_newsblog/cms_appconfig.py:29
+msgid "Permanent redirect to permalink"
+msgstr "Постоянное перенаправление по статической ссылке"
+
+#: aldryn_newsblog/cms_appconfig.py:30
+msgid "Return 404: Not Found"
+msgstr "Ошибка 404: Не найдено"
+
+#: aldryn_newsblog/cms_appconfig.py:42
+msgid "application title"
+msgstr "заголовок приложения"
+
+#: aldryn_newsblog/cms_appconfig.py:45
+msgid "permalink type"
+msgstr "тип статической ссылки"
+
+#: aldryn_newsblog/cms_appconfig.py:47
+msgid ""
+"Choose the style of urls to use from the examples. (Note, all types are "
+"relative to apphook)"
+msgstr ""
+"Выберите из примеров стиль отображения адресов для использования. Примечание: все типы"
+"относительны для аппхуков(apphooks)"
+
+#: aldryn_newsblog/cms_appconfig.py:51
+msgid "non-permalink handling"
+msgstr "обработка динамических ссылок"
+
+#: aldryn_newsblog/cms_appconfig.py:54
+msgid "How to handle non-permalink urls?"
+msgstr "Как обрабатывать динамические адреса?"
+
+#: aldryn_newsblog/cms_appconfig.py:57
+msgid "Paginate size"
+msgstr "Шаг пагинации"
+
+#: aldryn_newsblog/cms_appconfig.py:60
+msgid "When paginating list views, how many articles per page?"
+msgstr "Сколько статей будет выводиться на одной странице при пагинации?"
+
+#: aldryn_newsblog/cms_appconfig.py:63
+msgid "Pagination pages start"
+msgstr "Начать пагинацию страниц"
+
+#: aldryn_newsblog/cms_appconfig.py:66
+msgid ""
+"When paginating list views, after how many pages should we start grouping "
+"the page numbers."
+msgstr ""
+"При пагинации списков, после скольких страниц нужно начинать группировать номера страниц?"
+
+#: aldryn_newsblog/cms_appconfig.py:70
+msgid "Pagination pages visible"
+msgstr "Количество видимых страниц"
+
+#: aldryn_newsblog/cms_appconfig.py:73
+msgid ""
+"When grouping page numbers, this determines how many pages are visible on "
+"each side of the active page."
+msgstr ""
+"При группировке номеров страниц, эта настройка определяет сколько страниц будет видно "
+"с каждой стороны на активной странице."
+
+#: aldryn_newsblog/cms_appconfig.py:77
+msgid "Excluded featured articles count"
+msgstr "Количество исключенных основных статей"
+
+#: aldryn_newsblog/cms_appconfig.py:81
+msgid ""
+"If you are using the Featured Articles plugin on the article list view, you "
+"may prefer to exclude featured articles from the article list itself to "
+"avoid duplicates. To do this, enter the same number here as in your Featured "
+"Articles plugin."
+msgstr ""
+"Если вы используете плагин основных статей на странице списка статей, "
+"вам может понадобиться исключить основные статьи из списка, чтобы не допустить повторений."
+"Для этого введите здесь тот же номер что и в плагине основных статей."
+
+#: aldryn_newsblog/cms_appconfig.py:90
+msgid "Prefix for template dirs"
+msgstr "Префикс для директорий шаблонов"
+
+#: aldryn_newsblog/cms_appconfig.py:94
+msgid "Auto-create authors?"
+msgstr "Создать авторов автоматически?"
+
+#: aldryn_newsblog/cms_appconfig.py:96
+msgid "Automatically create authors from logged-in user?"
+msgstr "Автоматически создать авторов на основе вошедшего пользователя?"
+
+#: aldryn_newsblog/cms_appconfig.py:101
+msgid "Include in search index?"
+msgstr "Включить в поисковый индекс?"
+
+#: aldryn_newsblog/cms_appconfig.py:103
+msgid "Include articles in search indexes?"
+msgstr "Включить статьи в поисковые индексы?"
+
+#: aldryn_newsblog/cms_appconfig.py:142
+msgid "untitled"
+msgstr "безымянное"
+
+#: aldryn_newsblog/cms_appconfig.py:151
+msgid "Post published by default"
+msgstr "Пост опубликован по умолчанию"
+
+#: aldryn_newsblog/cms_apps.py:15
+msgid "NewsBlog"
+msgstr "НовостнойБлог"
+
+#: aldryn_newsblog/cms_plugins.py:66
+msgid "Archive"
+msgstr "Архив"
+
+#: aldryn_newsblog/cms_plugins.py:86
+msgid "Article Search"
+msgstr "Поиск статей"
+
+#: aldryn_newsblog/cms_plugins.py:100
+msgid "Authors"
+msgstr "Авторы"
+
+#: aldryn_newsblog/cms_plugins.py:118
+msgid "Categories"
+msgstr "Категории"
+
+#: aldryn_newsblog/cms_plugins.py:135
+msgid "Featured Articles"
+msgstr "Основные Статьи"
+
+#: aldryn_newsblog/cms_plugins.py:149
+msgid "Latest Articles"
+msgstr "Последние Статьи"
+
+#: aldryn_newsblog/cms_plugins.py:163
+msgid "Related Articles"
+msgstr "Связанные Статьи"
+
+#: aldryn_newsblog/cms_plugins.py:191
+msgid "Tags"
+msgstr "Тэги"
+
+#: aldryn_newsblog/cms_toolbars.py:92
+msgid "Configure addon"
+msgstr "Настроить аддон"
+
+#: aldryn_newsblog/cms_toolbars.py:103
+msgid "Article list"
+msgstr "Список статей"
+
+#: aldryn_newsblog/cms_toolbars.py:110
+msgid "Add new article"
+msgstr "Добавить новую статью"
+
+#: aldryn_newsblog/cms_toolbars.py:118
+msgid "Edit this article"
+msgstr "Редактировать эту статью"
+
+#: aldryn_newsblog/cms_toolbars.py:126
+msgid "Delete this article"
+msgstr "Удалить эту статью"
+
+#: aldryn_newsblog/cms_wizards.py:70
+msgid ""
+"Optional. If provided, it will be added to the main body of the article as a "
+"text plugin, that can be formatted."
+msgstr ""
+"Необязательно. Если указано, будет добавлено к главному тексту статьи как"
+"текстовый плагин, доступный для форматирования."
+
+#: aldryn_newsblog/cms_wizards.py:124
+msgid "Initial version."
+msgstr "Первоначальная версия."
+
+#: aldryn_newsblog/cms_wizards.py:130
+msgid "New news/blog article"
+msgstr "Новая новостная статья или статья для блога"
+
+#: aldryn_newsblog/cms_wizards.py:133
+msgid "Create a new news/blog article."
+msgstr "Создать новостную статью или статью для блога"
+
+#: aldryn_newsblog/feeds.py:37
+#, python-format
+msgid "Articles on %(site_name)s"
+msgstr "Статьи на %(site_name)s"
+
+#: aldryn_newsblog/menu.py:20
+msgid "Aldryn NewsBlog Menu"
+msgstr "Aldryn NewsBlog Меню"
+
+#: aldryn_newsblog/models.py:77
+msgid "untitled-article"
+msgstr "безымянная статья"
+
+#: aldryn_newsblog/models.py:88
+msgid "title"
+msgstr "заголовок"
+
+#: aldryn_newsblog/models.py:90
+msgid "slug"
+msgstr "слагнейм"
+
+#: aldryn_newsblog/models.py:95
+msgid ""
+"Used in the URL. If changed, the URL will change. Clear it to have it re-"
+"created automatically."
+msgstr ""
+"Используется в URL. Если изменено, URL изменится. Очистите это поле, чтобы автоматически создать его заново."
+
+#: aldryn_newsblog/models.py:99
+msgid "lead"
+msgstr "краткий текст"
+
+#: aldryn_newsblog/models.py:101
+msgid ""
+"The lead gives the reader the main idea of the story, this is useful in "
+"overviews, lists or as an introduction to your article."
+msgstr ""
+"Краткий текст передает читателю главную идею истории, это полезно в "
+"в обзорах, списках или как вступление к вашей статье."
+
+#: aldryn_newsblog/models.py:108
+msgid "meta title"
+msgstr "meta заголовок"
+
+#: aldryn_newsblog/models.py:111
+msgid "meta description"
+msgstr "meta описание"
+
+#: aldryn_newsblog/models.py:113
+msgid "meta keywords"
+msgstr "meta ключевые слова"
+
+#: aldryn_newsblog/models.py:122
+msgid "author"
+msgstr "автор"
+
+#: aldryn_newsblog/models.py:123
+msgid "owner"
+msgstr "владелец"
+
+#: aldryn_newsblog/models.py:125 aldryn_newsblog/models.py:282
+msgid "Apphook configuration"
+msgstr "Apphook - настройка"
+
+#: aldryn_newsblog/models.py:127
+msgid "categories"
+msgstr "категории"
+
+#: aldryn_newsblog/models.py:129
+msgid "publishing date"
+msgstr "дата публикации"
+
+#: aldryn_newsblog/models.py:131
+msgid "is published"
+msgstr "опубликовано"
+
+#: aldryn_newsblog/models.py:133
+msgid "is featured"
+msgstr "является основным"
+
+#: aldryn_newsblog/models.py:148
+msgid "related articles"
+msgstr "связанные статьи"
+
+#: aldryn_newsblog/models.py:267
+msgid ""
+"The maximum duration (in seconds) that this plugin's content should be "
+"cached."
+msgstr ""
+"Максимальная продолжительность (в секундах), на которую конент плагина может быть закэширован."
+
+#: aldryn_newsblog/models.py:297 aldryn_newsblog/models.py:308
+#, python-format
+msgid "%s archive"
+msgstr "%s архив"
+
+#: aldryn_newsblog/models.py:302
+msgid "max articles"
+msgstr "максимальное кол-во статей"
+
+#: aldryn_newsblog/models.py:304
+msgid "The maximum number of found articles display."
+msgstr "Максимальное количество найденных статей для отображения."
+
+#: aldryn_newsblog/models.py:349
+#, python-format
+msgid "%s authors"
+msgstr "%s авторы"
+
+#: aldryn_newsblog/models.py:355
+#, python-format
+msgid "%s categories"
+msgstr "%s категории"
+
+#: aldryn_newsblog/models.py:399
+msgid "The maximum number of featured articles display."
+msgstr "Максимальное количество основных статей для отображения."
+
+#: aldryn_newsblog/models.py:422
+msgid "featured article"
+msgstr "основная статья"
+
+#: aldryn_newsblog/models.py:424
+#, python-format
+msgid "featured articles: %(count)s"
+msgstr "основных статей: %(count)s"
+
+#: aldryn_newsblog/models.py:436
+msgid "The maximum number of latest articles to display."
+msgstr "Максимальное количество последних статей для отображения."
+
+#: aldryn_newsblog/models.py:442
+msgid ""
+"The maximum number of featured articles to exclude from display. E.g. for "
+"uses in combination with featured articles plugin."
+msgstr ""
+"Максимальное количество основных статей, которое нужно скрыть. "
+"Для использования в сочетании с плагином основных статей."
+
+#: aldryn_newsblog/models.py:470
+#, python-format
+msgid "%(app_title)s latest articles: %(latest_articles)s"
+msgstr "%(app_title)s последние статьи: %(latest_articles)s"
+
+#: aldryn_newsblog/models.py:498
+msgid "Related articles"
+msgstr "Связанные статьи"
+
+#: aldryn_newsblog/models.py:540
+#, python-format
+msgid "%s tags"
+msgstr "%s тэги"
