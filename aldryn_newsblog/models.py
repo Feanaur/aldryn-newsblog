@@ -151,6 +151,8 @@ class Article(TranslatedAutoSlugifyMixin,
     objects = RelatedManager()
 
     class Meta:
+        verbose_name = u"Статья"
+        verbose_name_plural = u"Статьи"
         ordering = ['-publishing_date']
 
     @property
